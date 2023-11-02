@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "yektanet add Remover",
+  "version": "1.0",
+  "description": "Remove elements from web pages.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "16": "src/icons/icon.png",
+    "48": "src/icons/icon.png",
+    "128": "src/icons/icon.png"
+  }
+}
