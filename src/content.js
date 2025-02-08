@@ -29,5 +29,5 @@ RemoveAllItems();
 let IntervalId = setInterval(function () {
   RemoveAllItems();
   console.log("yektanet add Remover Interval");
-}, 1000);
+}, 10000);
 console.log("yektanet add Remover loaded!");
