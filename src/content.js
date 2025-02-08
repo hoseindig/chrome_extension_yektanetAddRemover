@@ -7,10 +7,14 @@ function removeElementsByClassName(className) {
 }
 
 const classList = [
+  "tapsell-native-video",
+  "mediaad-notif",
   "yn-notif-item",
   "yn-content",
   "yn-notif-item",
   "yn-borderbox",
+  "yn-bnr-container",
+  "YN"
 ];
 
 function RemoveAllItems() {
